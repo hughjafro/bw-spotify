@@ -1,0 +1,326 @@
+/* Removes the blue outline from focused/highlighted elements */
+*:focus {
+  outline: none;
+}
+
+.ui.menu {
+  /* EVERYTHING IS BROKEN HERE */
+  /* font-size: 25px; */
+  /* color: #1DB954 !important; */
+} 
+
+#search {
+  height: 100vh;
+  background-image: url("../edwin-andrade-158050-unsplash.jpg");
+  background-size: cover;
+}
+
+#song{
+  height: 100vh;
+  background-image: url("../edwin-andrade-158050-unsplash.jpg");
+}
+
+body {
+    color: #ffffff;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 200;
+    background-color: #353d45;
+  }
+  
+  /* .example {
+    padding: 0 25px;
+  } */
+  
+  label {
+    /* For some reason this also customizes the search bar on the landing page */
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+  }
+  
+  /* code {
+    padding: .2em .5em;
+    font-size: 85%;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px;
+  } */
+
+  #states-autocomplete{
+    /* This is the search bar on the main page */
+    /* A BASIC VERSION:  */
+    /* border: 1px solid #999; */
+    /* padding: 0.5rem; */
+    /* border: none; */
+    width: 300px;  
+    width: 450px;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(30, 215, 96, 0.45);
+    border:1px;
+    border-radius: 30px;
+    box-shadow: inset 1px 1px 1px #000000;
+  } 
+
+  .menu {
+    /* border-radius: '3px';
+    box-shadow: '0 2px 12px rgba(0, 0, 0, 0.1)';
+    background-color: 'rgba(255, 255, 255, 0.9)';
+    padding: '2px 0';
+    font-size: '90%';
+    position: 'fixed'; 
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px; */
+    /* THE 👇 customizes how many items will be visible in the dropdown */
+    max-height: 160px; 
+    overflow: hidden;
+  }
+  
+  .item {
+    /* STYLES INDIVIDUAL ITEMS INSIDE MENU BOX */
+    /* MY STUFF padding: 2px 6px;
+    cursor: default;
+    color: #333;
+    background-color: #ffffff;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.45); */
+    font-size: 16px;
+    border-radius: 3px;
+    width: 100%;
+    position: relative;
+    padding: 5px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .item-highlighted {
+    /* color: #282828;
+    background-color: #1db954; */
+    font-weight: bold;
+  }
+  
+  /* .item-header {
+    background-color: #ffffff;
+    color: #454545;
+    font-weight: bold;
+  } */
+
+  .searchTitle {
+      color: #ffffff;
+      text-shadow: 1px 1px 2px #000000;
+      padding-top: 200px;
+      padding-bottom: 50px;
+      margin-top: 30px;
+      font-size: 40px;
+  }
+
+  .searchText {
+    color: #ffffff;
+    font-size: 17px;
+    font-style: italic;
+    padding-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .searchText em {
+    color: #1db954;
+    font-style: italic;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .trackInfo {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 20px;
+  }
+
+  .simInfo {
+      color: rgba(255, 255, 255, 0.8);
+      padding-bottom: 0px;
+      font-size: 20px;
+  }
+
+  .songSpace {
+    margin-left: 20px;
+  }
+
+  .simName {
+    color: rgba(30, 215, 96, 1);
+  }
+
+  .trackID {
+      color: #99a4ae;
+      background-color: #2c313b;
+      width: 280px;
+      margin: 5px 0;
+      padding: 10px 0;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .similar {
+    color: #99a4ae;
+    background-color: #2c313b;
+    width: 280px;
+    margin: 5px 0;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+
+  .dataType {
+    color: rgba(30, 215, 96, 0.65);
+    margin: 10px 5px 0 0;
+  }
+
+  .dataList {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dataSong {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .musicChart {
+    margin: 100px 0;
+    padding-top: 45px;
+    width: 500px;
+    height: 400px;
+  }
+
+  .songButton {
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+      color: #99a4ae;
+      margin: 10px 0;
+  }
+
+  .spinnerFlex {
+    padding: 20% 0 0 0;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .mainTitle {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+ .iframe {
+   margin-left: 40px;
+  }
+
+  .similar a {
+    line-height: 1.5
+  }
+  .similar a:hover {
+    cursor: pointer;
+  }
+
+  .infoDisplay {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .limit {
+    width: 46px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .menu-item {
+    font-size: 2rem;
+  }
+
+  .menu-bar {
+    margin-bottom: 0 !important;
+  }
+
+
+  @media (max-width: 1777px) {
+    .infoDisplay {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .trackInfo{
+      font-size: 30px;
+    }
+    .simInfo{
+      font-size: 30px;
+    }
+    .dataType{
+      font-size: 20px;
+    }
+    .limit {
+      font-size: 20px;
+      width: 65px;
+    }
+    .nolimit {
+      font-size: 20px;
+    }
+    .trackID {
+      width: 350px;
+    }
+    .similar {
+      width: 400px;
+      font-size: 20px;
+    }
+    .simInfo {
+      padding-top: 145px;
+    }
+  }
+
+  @media (max-width: 1416px) {
+    .infoDisplay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .mainTitle {
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
+  }
+
+  @media(max-width: 998px) {
+    .dataSong {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .songSpace {
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+    .musicChart {
+      width: 523px;
+    }
+  }
+

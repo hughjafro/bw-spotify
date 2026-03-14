@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clarify | Music Your Way</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/index.css">
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="main-container">
+<!-- Nav & logo -->
+    <header>
+        <div class="navContainer">
+            <div class="circle"> 
+                <div class="cir1">
+                <a href="index.html"> <i class="fas fa-music"></i> </a>
+                </div>
+                <a class="logo" href="index.html">Clarify Music</a>
+            </div>
+            <div class="nav-btn">
+                <nav>
+                    <a href="works.html">How it works</a>
+                    <a href="contact.html">Contact us</a>
+                    <div class="line"></div>
+                    <a href="https://bw-spotify.netlify.com/register">Sign up</a>
+                    
+                    <div class="mobile-nav">
+                        <i class="fab fa-buromobelexperte"></i>
+                    </div>
+
+                </nav>
+                <button onclick="window.location.href = 'https://bw-spotify.netlify.com/login';">Log in</button>
+            </div>
+        </div>
+    </header>
+<!-- Team Members -->
+
+<section class="team">
+  <!-- TEAM MEMBER 1 -->
+    <div class="about__section">
+      <a href="javascript:void(0);" title="Tina Kovacova - Team Lead"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/tina.jpeg');"></div>
+        <div class="about__info">
+          <h4 class="name">Tina Kovacova</h4>
+          <h5 class="title">Team Lead</h5>
+        </div>
+        <div class="bioText"> 
+          <h6>Data Scientist | Machine Learning Engineer</h6>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github-square"></i>
+        </div>
+      </a>
+    </div>
+  <!-- TEAM MEMBER 2 -->
+  <div class="about__section">
+      <a href="javascript:void(0);" title="Daniel Martin-Alarcon - DS"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/dma.jpg');"></div>
+        <div class="about__info">
+          <h4 class="name">Daniel Martin-Alarcon</h4>
+          <h5 class="title">Data Science</h5>
+        </div>
+        <div class="bioText"> 
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github-square"></i>
+        </div>
+      </a>
+    </div>  
+    <!-- TEAM MEMBER 3-->
+  <div class="about__section">
+      <a href="javascript:void(0);" title="Christopher Tolbert - DS"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/ga.jpg');"></div>
+        <div class="about__info">
+          <h4 class="name">Christopher Tolbert</h4>
+          <h5 class="title">Data Science</h5>
+        </div>
+        <div class="bioText"> 
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github-square"></i>
+        </div>
+      </a>
+    </div>  
+    
+  </section>
+
+  <section class="team2">
+      <!-- TEAM MEMBER 1 -->
+        <div class="about__section">
+          <a href="javascript:void(0);" title="Chris Schroder - Data Science"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/chris.png');"></div>
+            <div class="about__info">
+              <h4 class="name">Chris Schroder</h4>
+              <h5 class="title">Data Science</h5>
+            </div>
+            <div class="bioText"> 
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github-square"></i>
+            </div>
+          </a>
+        </div>
+      <!-- TEAM MEMBER 2 -->
+      <div class="about__section">
+          <a href="javascript:void(0);" title="Anthony Johnson - UX Developer"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/aj.png');"></div>
+            <div class="about__info">
+              <h4 class="name">Anthony Johnson</h4>
+              <h5 class="title">UX Developer</h5>
+            </div>
+            <div class="bioText"> 
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github-square"></i>
+            </div>
+          </a>
+        </div>  
+        <!-- TEAM MEMBER 3-->
+      <div class="about__section">
+          <a href="javascript:void(0);" title="Sean Doyle- UX Developer"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/sean.jpg');"></div>
+            <div class="about__info">
+              <h4 class="name">Sean Doyle</h4>
+              <h5 class="title">UX Developer</h5>
+            </div>
+            <div class="bioText"> 
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github-square"></i>
+            </div>
+          </a>
+        </div>  
+        
+      </section>
+      <section class="team3">
+          <!-- TEAM MEMBER 1 -->
+            <div class="about__section">
+              <a href="javascript:void(0);" title="Jean-Francois Sebagh - Front End Architect "><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url(/img/jean.png);"></div>
+                <div class="about__info">
+                  <h4 class="name">Jean-Francois Sebagh</h4>
+                  <h5 class="title">Front End Architect </h5>
+                </div>
+                <div class="bioText"> 
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github-square"></i>
+                </div>
+              </a>
+            </div>
+          <!-- TEAM MEMBER 2 -->
+          <div class="about__section">
+              <a href="javascript:void(0);" title="A. Lowell Richardson - Front End Architect "><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/alow.jpeg');"></div>
+                <div class="about__info">
+                  <h4 class="name">A. Lowell Richardson</h4>
+                  <h5 class="title">Front End Architect </h5>
+                </div>
+                <div class="bioText"> 
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github-square"></i>
+                </div>
+              </a>
+            </div>  
+            <!-- TEAM MEMBER 3-->
+          <div class="about__section">
+              <a href="javascript:void(0);" title="Max McFerren- Back End Architect"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('/img/max.jpeg');"></div>
+                <div class="about__info">
+                  <h4 class="name">Max McFerren</h4>
+                  <h5 class="title">Back End Architect</h5>
+                </div>
+                <div class="bioText"> 
+                    <h6>Software Developer / Music Professional</h6>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github-square"></i>
+                </div>
+              </a>
+            </div>  
+            
+          </section>
+
+
+        <!--- footer section---->
+
+        <footer>
+            <div class="footer-nav">
+                <nav>
+                    <a href="privacy.html">Privacy Policy</a> 
+                    <a href="works.html">How it works</a>
+                    <a href="contact.html">Contact us</a>
+                    <a href="team.html">Meet The Team</a>
+
+                </nav>
+            </div>
+            <div class="social">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+            </div>
+                
+            <div class="footer-copy"> <p>© Clarify! 2019</p></div>
+        </footer>
+    </div>
+    
+</body>
+</html>
